@@ -1,0 +1,182 @@
+body {
+    background-image: url(./bg/3.png); 
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1 {
+    background-color: rgb(243, 180, 85);
+    width: 400px;
+    padding-left: 20px;
+    border: 1px solid rgb(204, 124, 5);
+    border-top-right-radius: 60px;
+    border-end-end-radius: 60px;
+    display: flex;
+}
+.div2 {
+    text-align: justify;
+
+}
+.container {
+    display : flex; 
+    flex-wrap: wrap;
+    
+}
+.div3 {
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: fuchsia;
+}
+.div4 {
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(126, 108, 11);
+}
+.div5 {
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(8, 124, 139);
+}
+.image1 {
+    width: 500px;
+    border-radius: 5px;
+}
+.div6 {
+    text-align: justify;
+}
+.num1 {
+    color: blue;
+}
+.vid1 {
+    width: 500px;
+    margin-left: 50px;
+}
+@media screen and (max-width: 678px) {
+    body {
+        background-image: url(./bg/2.jpg); 
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .div1 {
+        background-color: rgb(85, 211, 243);
+        width: 200px;
+        padding-left: 20px;
+        border: 1px solid rgb(16, 128, 81);
+        border-top-right-radius: 60px;
+        border-end-end-radius: 60px;
+        display: flex;
+    }
+    .container {
+        display : flex; 
+        flex-wrap: wrap;
+    }
+    .div3 {
+        border: 2px solid blue;
+        padding: 5px;
+        margin: 10px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        width: 230px;
+        text-align: center;
+        background-color: chartreuse;
+    }
+    .div4 {
+        border: 2px solid blue;
+        padding: 5px;
+        margin: 10px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        width: 230px;
+        text-align: center;
+        background-color: rgb(131, 57, 228);
+    }
+    .div5 {
+        border: 2px solid blue;
+        padding: 5px;
+        margin: 10px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        width: 230px;
+        text-align: center;
+        background-color: rgb(177, 231, 26);
+    }
+    .vid1 {
+        width: 300px;
+        margin-left: 10px;
+    }
+}
+.image1 {
+    width: 350px;
+    border-radius: 5px;
+}
+@media screen and (min-width: 700px) {
+    .div1 {
+        background-color: rgb(85, 243, 93);
+        width: 700px;
+        padding-left: 20px;
+        border: 1px solid rgb(16, 128, 81);
+        border-top-right-radius: 60px;
+        border-end-end-radius: 60px;
+        display: flex;
+        flex-direction: column; 
+        text-align: center; 
+    }
+    .div2 {
+        text-align: justify;
+        font-size: 1.5em;
+    }
+    .container {
+        display : flex; 
+        flex-wrap: wrap;
+    }
+    .div3 {
+        border: 2px solid blue;
+        padding: 10px;
+        margin: 5px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        width: 280px;
+        text-align: center;
+        background-color: aqua;
+    }
+    .div4 {
+        border: 2px solid blue;
+        padding: 10px;
+        margin: 5px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        width: 280px;
+        text-align: center;
+        background-color: navajowhite;
+    }
+    .div5 {
+        border: 2px solid blue;
+        padding: 10px;
+        margin: 5px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        width: 280px;
+        text-align: center;
+        background-color: rgb(243, 180, 85);
+    }
+    .image1 {
+        width: 600px;
+        border-radius: 5px;
+    }
+}
